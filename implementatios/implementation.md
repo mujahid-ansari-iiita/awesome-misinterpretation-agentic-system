@@ -1,10 +1,10 @@
-USER OBJECTIVE
+                 USER OBJECTIVE
                        ↓
-                  AI AGENT
+                     AI AGENT
                        ↓
-                  PLAN ACTION
+                   PLAN ACTION
                        ↓
-              OBJECTIVE CHECKER
+                OBJECTIVE CHECKER
                        ↓
                 ┌──────┴──────┐
                 ↓             ↓
