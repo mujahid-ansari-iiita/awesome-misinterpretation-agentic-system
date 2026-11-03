@@ -1,0 +1,49 @@
+
+RESEARCH PROJECT
+An Empirical Evaluation of Pretrained Time-Series Foundation
+Models and Traditional Machine Learning Models for
+Time-Series Anomaly Detection
+
+DATASET
+Source: TSB-AD-U
+Selected file: 010_NAB_id_10_WebService_tr_500_1st_271.csv
+Total observations: 1000
+Training observations: 500
+Testing observations: 500
+Training anomalies: 100
+Testing anomalies: 48
+
+MODELS
+1. Isolation Forest
+2. Z-Score
+3. Chronos-T5-Small
+
+TEST RESULTS
+Isolation Forest:
+Precision = 0.2791
+Recall = 0.2500
+F1-score = 0.2637
+Average Precision (AP) = 0.2325
+
+Z-Score:
+Precision = 1.0000
+Recall = 0.0417
+F1-score = 0.0800
+Average Precision (AP) = 0.2864
+
+Chronos-T5-Small:
+Precision = 0.5000
+Recall = 0.1250
+F1-score = 0.2000
+Average Precision (AP) = 0.2835
+
+THRESHOLD SENSITIVITY
+Chronos was evaluated at the 90th, 95th, 97.5th,
+and 99th percentiles of training forecasting errors.
+The 90th percentile produced the highest F1-score
+among the tested thresholds (0.2439).
+
+EXPERIMENTAL LIMITATION
+This is a single-time-series pilot experiment.
+Results should not be generalized to all time-series
+datasets or all foundation models.
