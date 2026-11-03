@@ -1,0 +1,34 @@
+{
+    "dataset": "010_NAB_id_10_WebService_tr_500_1st_271.csv",
+    "dataset_source": "TSB-AD-U",
+    "official_split": "Evaluation",
+    "total_observations": 1000,
+    "normal_observations": 852,
+    "anomaly_observations": 148,
+    "anomaly_groups": [
+        [
+            271,
+            320
+        ],
+        [
+            413,
+            462
+        ],
+        [
+            952,
+            999
+        ]
+    ],
+    "models": [
+        "Isolation Forest",
+        "Rolling Statistical Detector",
+        "Chronos"
+    ],
+    "metrics": [
+        "Precision",
+        "Recall",
+        "F1",
+        "PR-AUC"
+    ],
+    "random_seed": 42
+}

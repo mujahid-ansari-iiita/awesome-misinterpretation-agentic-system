@@ -1,0 +1,11 @@
+Setting,Value
+Python,"3.13.18 (main, Oct 26 2026, 15:28:15) [GCC 13.3.0]"
+PyTorch,2.11.0+cpu
+Device,CPU
+Chronos_Model,amazon/chronos-t5-small
+Random_Seed,42
+Training_Size,500
+Testing_Size,500
+Chronos_Context_Length,128
+Chronos_Num_Samples,20
+Chronos_Threshold_Percentile,95
