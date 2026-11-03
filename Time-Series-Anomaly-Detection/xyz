@@ -1,1 +1,27 @@
 
+Time-Series-Anomaly-Detection/
+│
+├── README.md
+│
+├── notebooks/
+│   └── ATR_Anomaly_Detection.ipynb
+│
+├── data/
+│   ├── selected_dataset.csv
+│   └── README.md
+│
+├── results/
+│   ├── final_results.csv
+│   ├── baseline_results.csv
+│   ├── test_predictions.csv
+│   ├── chronos_threshold_sensitivity.csv
+│   ├── experiment_environment.csv
+│   └── experiment.json
+│
+├── figures/
+│   ├── model_comparison.png
+│   └── chronos_sensitivity.png
+│
+└── documentation/
+    └── research_summary.txt
+
